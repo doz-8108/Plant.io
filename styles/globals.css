@@ -1,0 +1,73 @@
+@tailwind base;
+@layer base {
+	html {
+		box-sizing: border-box;
+	}
+
+	*,
+	*::before,
+	*::after {
+		box-sizing: inherit;
+	}
+
+	body {
+		font-family: "Kumbh Sans", sans-serif;
+		line-height: 1.6;
+		font-weight: 400;
+	}
+
+	:root {
+		--color-primary: #03b176;
+		--color-primary-light: #38e190;
+		--color-primary-hover: #dcfce7;
+		--color-secondary: #2f2e41;
+		--color-secondary-light: #565656a3;
+	}
+
+	::-webkit-scrollbar {
+		background-color: transparent;
+		width: 0.7rem;
+	}
+
+	::-webkit-scrollbar-thumb {
+		background-color: #e2e2e4;
+		border-radius: 0.375rem;
+	}
+}
+
+@tailwind components;
+@tailwind utilities;
+
+.MuiPaginationItem-page.Mui-selected {
+	background-color: var(--color-primary) !important;
+	color: white;
+}
+
+.MuiPaginationItem-page.Mui-selected:hover {
+	background-color: var(--color-primary) !important;
+}
+
+.MuiInput-underline:after {
+	border-bottom-color: var(--color-primary) !important;
+}
+
+.MuiFormLabel-root.Mui-focused {
+	color: var(--color-primary) !important;
+}
+
+.Mui-focused .MuiOutlinedInput-notchedOutline {
+	border-color: var(--color-primary) !important;
+}
+
+.css-kk1bwy-MuiButtonBase-root-MuiMenuItem-root.Mui-selected {
+	background-color: var(--color-primary-hover);
+}
+
+.css-12wnr2w-MuiButtonBase-root-MuiCheckbox-root.Mui-checked,
+.css-12wnr2w-MuiButtonBase-root-MuiCheckbox-root.MuiCheckbox-indeterminate {
+	color: #13c78b !important;
+}
+
+input[id^="faq"] {
+	appearance: none;
+}

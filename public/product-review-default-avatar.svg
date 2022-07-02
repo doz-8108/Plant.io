@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="42px" height="42px" viewBox="0 0 42 42" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>svg-01</title>
+    <desc>Created with Sketch.</desc>
+    <g id="svg-01" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <circle id="Oval-Copy-3" fill="#C3C3C3" fill-rule="nonzero" opacity="0.2" cx="21" cy="21" r="21"></circle>
+        <g id="Group-5-Copy-2" transform="translate(11.000000, 10.000000)" stroke="#CDCDCD" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+            <path d="M15,4.99989273 C15,7.76135413 12.7613541,10 9.99989273,10 C7.23864587,10 5,7.76135413 5,4.99989273 C5,2.23843134 7.23864587,0 9.99989273,0 C12.7613541,0 15,2.23843134 15,4.99989273 Z" id="Stroke-1"></path>
+            <path d="M19.235578,21 L0.764209318,21 C0.343830403,21 0,20.6806636 0,20.2900343 C0,16.2806537 3.53207595,13 7.84919943,13 L12.1505879,13 C16.4674988,13 20,16.2806537 20,20.2900343 C20,20.6806636 19.655957,21 19.235578,21 Z" id="Stroke-3"></path>
+        </g>
+    </g>
+</svg>
