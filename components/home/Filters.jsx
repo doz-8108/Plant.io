@@ -1,4 +1,4 @@
-import React, { useState, useRef, useEffect } from "react";
+import React, { useState, useRef } from "react";
 import { SearchIcon, XIcon } from "@heroicons/react/outline";
 import { AdjustmentsIcon } from "@heroicons/react/solid";
 import {

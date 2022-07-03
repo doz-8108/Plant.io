@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import Link from "next/Link";
+import Link from "next/link";
 import { CheckCircleIcon } from "@heroicons/react/solid";
 import { getSession } from "@auth0/nextjs-auth0";
 import { withPageAuthRequired } from "@auth0/nextjs-auth0";

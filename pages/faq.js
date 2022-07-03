@@ -39,7 +39,7 @@ const FaqItem = ({ question, answer, index = 1 }) => {
 	);
 };
 
-const faq = ({ faqs }) => {
+const Faq = ({ faqs }) => {
 	return (
 		<main className="mt-8 mx-auto w-[90vw] sm:w-[80vw] md:w-[70vw] lg:w-[55vw] xl:w-[45vw] max-w-[700px]">
 			<h1 className="font-semibold text-xl sm:text-2xl mb-4 text-color-primary">
@@ -98,4 +98,4 @@ export const getStaticProps = () => {
 	};
 };
 
-export default faq;
+export default Faq;

@@ -72,7 +72,7 @@ const CollapsibleContent = ({
 	);
 };
 
-const orders = ({ orders }) => {
+const AdminOrders = ({ orders }) => {
 	const rows = orders.map(o => ({
 		rowContent: {
 			orderId: o._id,
@@ -116,4 +116,4 @@ export const getServerSideProps = withPageAuthRequired({
 	}
 });
 
-export default orders;
+export default AdminOrders;

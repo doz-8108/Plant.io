@@ -14,9 +14,9 @@ import client from "../../utils/sanity.client";
 import checkPermission from "../../utils/checkPermission";
 import NewComments from "../../components/user/admin/NewComments";
 import SubHeader from "../../components/shared/SubHeader";
-import Container from "../../components/User/Container";
+import Container from "../../components/user/Container";
 
-const dashboard = ({
+const Dashboard = ({
 	dataByMonth: { sales, profit },
 	dataByYear,
 	top5Products,
@@ -225,4 +225,4 @@ export const getServerSideProps = withPageAuthRequired({
 	}
 });
 
-export default dashboard;
+export default Dashboard;

@@ -1,15 +1,15 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import { useRouter } from "next/router";
 import { CircularProgress, useMediaQuery } from "@mui/material";
 import { withPageAuthRequired, getSession } from "@auth0/nextjs-auth0";
 
 import client from "../../utils/sanity.client";
-import CreditCard from "../../components/Cart/CreditCard";
-import Summary from "../../components/Cart/BillingSummary";
+import CreditCard from "../../components/cart/CreditCard";
+import Summary from "../../components/cart/BillingSummary";
 import SubHeader from "../../components/shared/SubHeader";
 import useCart from "../../hooks/useCart";
 
-const cart = ({ contact }) => {
+const Cart = ({ contact }) => {
 	const router = useRouter();
 	const isPortrait = useMediaQuery("(max-width: 1024px)");
 	const [isPaymentProcessing, setPaymentProcessing] = useState(false);
@@ -67,4 +67,4 @@ export const getServerSideProps = withPageAuthRequired({
 	}
 });
 
-export default cart;
+export default Cart;

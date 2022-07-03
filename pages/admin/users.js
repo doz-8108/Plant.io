@@ -3,7 +3,7 @@ import List from "../../components/shared/List";
 import { withPageAuthRequired } from "@auth0/nextjs-auth0";
 
 import SubHeader from "../../components/shared/SubHeader";
-import Container from "../../components/User/Container";
+import Container from "../../components/user/Container";
 import client from "../../utils/sanity.client";
 import checkPermission from "../../utils/checkPermission";
 
@@ -46,7 +46,7 @@ const headCells = [
 	}
 ];
 
-const users = props => {
+const Users = props => {
 	const [users, setUsers] = useState(props.users);
 	const searchMethod = name => {
 		client
@@ -79,4 +79,4 @@ export const getServerSideProps = withPageAuthRequired({
 	}
 });
 
-export default users;
+export default Users;

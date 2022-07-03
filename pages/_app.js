@@ -3,7 +3,7 @@ import Head from "next/head";
 import { Toaster } from "react-hot-toast";
 import { UserProvider } from "@auth0/nextjs-auth0";
 
-import Nav from "../components/Nav/NavBar";
+import Nav from "../components/nav/NavBar";
 
 const MyApp = ({ Component, pageProps }) => {
 	return (

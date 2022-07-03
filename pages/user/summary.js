@@ -2,12 +2,12 @@ import React from "react";
 import { getSession, withPageAuthRequired } from "@auth0/nextjs-auth0";
 
 import client from "../../utils/sanity.client";
-import Contact from "../../components/User/Customer/Contact";
-import Container from "../../components/User/Container";
-import CardList from "../../components/User/Customer/CardList";
+import Contact from "../../components/user/customer/Contact";
+import Container from "../../components/user/Container";
+import CardList from "../../components/user/customer/CardList";
 import SubHeader from "../../components/shared/SubHeader";
 
-const contact = ({ paymentMethods, contact, userId }) => {
+const Summary = ({ paymentMethods, contact, userId }) => {
 	return (
 		<Container>
 			<div className="flex flex-col lg:flex-row">
@@ -61,4 +61,4 @@ export const getServerSideProps = withPageAuthRequired({
 	}
 });
 
-export default contact;
+export default Summary;

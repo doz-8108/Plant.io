@@ -1,12 +1,12 @@
-import React, { useEffect, useRef, useState } from "react";
+import React, { useState } from "react";
 import _ from "lodash";
 import { useRouter } from "next/router";
 
 import useDebounce from "../../hooks/useDebounce";
-import Hero from "../../components/Home/Hero";
-import Filters from "../../components/Home/Filters";
+import Hero from "../../components/home/Hero";
+import Filters from "../../components/home/Filters";
 import Pagination from "@mui/material/Pagination";
-import Product from "../../components/Home/ProductCard";
+import Product from "../../components/home/ProductCard";
 import client from "../../utils/sanity.client";
 import useLoadProducts from "../../hooks/useLoadProducts";
 import useCart from "../../hooks/useCart";

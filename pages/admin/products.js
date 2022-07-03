@@ -15,7 +15,7 @@ const headers = [
 	{ label: "categories", field: "categories", minWidth: 300 }
 ];
 
-const products = () => {
+const Products = () => {
 	const [action, setAction] = useState("create");
 	const [currentProduct, setCurrentProduct] = useState(null);
 	const [modalOpen, setModalOpen] = useState(false);
@@ -84,4 +84,4 @@ export const getServerSideProps = withPageAuthRequired({
 	}
 });
 
-export default products;
+export default Products;

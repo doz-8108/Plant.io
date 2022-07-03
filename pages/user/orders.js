@@ -5,12 +5,12 @@ import { ChatAltIcon } from "@heroicons/react/outline";
 import { getSession, withPageAuthRequired } from "@auth0/nextjs-auth0";
 
 import client from "../../utils/sanity.client";
-import Container from "../../components/User/Container";
+import Container from "../../components/user/Container";
 import SubHeader from "../../components/shared/SubHeader";
 import sendEmail from "../../utils/sendEmail";
 import useLoadOrder from "../../hooks/useLoadOrders";
 
-const orders = props => {
+const UserOrders = props => {
 	const statusIconState = {
 		preparing: "receipt text-yellow-400 ml-2 mr-1",
 		shipping: "shipping-fast text-yellow-500 ml-2 mr-1",
@@ -191,4 +191,4 @@ export const getServerSideProps = withPageAuthRequired({
 	}
 });
 
-export default orders;
+export default UserOrders;

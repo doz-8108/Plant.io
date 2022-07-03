@@ -8,8 +8,6 @@ const Container = ({ children }) => {
 	const [displaySideNav, toggleSideNav] = useState(false);
 	const handleSideNav = () => toggleSideNav(prev => !prev);
 
-	// todo: user identity check
-
 	return (
 		<div className="mt-5 min-h-100vh">
 			<div className="mx-auto relative flex flex-col items-center lg:flex-row lg:justify-center lg:items-start sm:px-5">
