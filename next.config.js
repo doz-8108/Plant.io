@@ -1,7 +1,7 @@
 module.exports = {
 	reactStrictMode: true,
 	images: {
-		domains: ["www.ikea.com.hk", "cdn.sanity.io"]
+		domains: ["cdn.sanity.io"]
 	},
 	async redirects() {
 		return [
