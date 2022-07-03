@@ -6,7 +6,6 @@ import {
 	UserCircleIcon,
 	ShoppingBagIcon
 } from "@heroicons/react/outline";
-import { useUser } from "@auth0/nextjs-auth0";
 
 import NavItem from "./NavItem";
 

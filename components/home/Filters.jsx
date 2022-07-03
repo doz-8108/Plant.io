@@ -22,9 +22,9 @@ const FilterWidget = ({
 	handleSearch,
 	categories,
 	chosenCats,
-    setChosenCats,
-    sortBy,
-    setSortBy
+	setChosenCats,
+	sortBy,
+	setSortBy
 }) => {
 	const [popoverOpen, setPopoverOpen] = useState(false);
 	const handlePopoverOpen = () => setPopoverOpen(true);
@@ -37,15 +37,11 @@ const FilterWidget = ({
 	const options = useRef(null);
 
 	return (
-		<section
-			className="mt-10 mb-5 p-5 flex justify-center relative"
-			aria-label="filters"
-		>
+		<section className="mt-10 mb-5 p-5 flex justify-center relative">
 			<div
 				className="mr-3 p-2 flex justify-center items-center rounded-3xl bg-color-secondary h-12 w-12 hover:w-11/12 sm:hover:w-4/6 lg:hover:w-3/6 transition-width duration-200 group"
 				onMouseOver={() => searchInput.current && searchInput.current.focus()}
 				onTouchEnd={() => searchInput.current && searchInput.current.focus()}
-				aria-label="search"
 				title="search"
 			>
 				<SearchIcon className="h-6 sm:h-7 text-white" />

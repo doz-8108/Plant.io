@@ -63,7 +63,7 @@ const ProductCard = ({
 					aria-label="product detail"
 					className={`relative ${style.img} cursor-pointer`}
 				>
-					<Image src={img} layout="fill" />
+					<Image src={img} alt="product image" layout="fill" />
 				</a>
 			</Link>
 			<div className="w-full pt-5">
