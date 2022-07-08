@@ -52,7 +52,13 @@ const Nav = () => {
 					<NavItem Icon={UserCircleIcon} title="ACCOUNT" />
 				</div>
 			</div>
-			{!isHome && <Divider light className="w-[90vw] xl:w-[85vw] mx-auto" />}
+			{!isHome && (
+				<Divider
+					light
+					className="w-[90vw] xl:w-[85vw]"
+					sx={{ margin: "0 auto" }}
+				/>
+			)}
 		</nav>
 	);
 };
