@@ -77,7 +77,7 @@ const CheckoutForm = ({ setPaymentProcessing }) => {
 			confirmParams: {
 				save_payment_method: true,
 				// Make sure to change this to your payment completion page
-				return_url: `http://localhost:3000/order/${orderId}`
+				return_url: `http://plant-io.pakpannn.com/order/${orderId}`
 			}
 		});
 
