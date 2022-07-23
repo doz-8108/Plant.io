@@ -96,7 +96,7 @@ const Dashboard = ({
 	return (
 		<Container>
 			<SubHeader title="Dashboard" />
-			<div className="w-full grid grid-cols-2 lg:grid-cols-3 auto-rows-auto gap-x-6 justify-items-center lg:justify-items-start">
+			<div className="w-full grid grid-cols-2 lg:grid-cols-3 auto-rows-auto gap-x-6 justify-items-start">
 				{/* Profit block */}
 				<div className="w-11/12 col-span-1 bg-dashboard-profit-1 h-32 shadow-lg rounded-lg flex flex-col sm:flex-row items-center justify-evenly text-gray-600">
 					<div className="p-1 sm:p-2 rounded-full bg-white self-start sm:self-auto ml-2 sm:ml-0 mt-2 sm:mt-0">

@@ -136,18 +136,18 @@ const Product = ({
 
 export const getServerSideProps = async ctx => {
 	const { pid } = ctx.params;
-	const { user } = getSession(ctx.req, ctx.res);
+	const session = getSession(ctx.req, ctx.res);
 
 	const queries = [client.getProductById(pid), client.getProductComments(pid)];
 	const [product, comments] = await Promise.all(queries);
 
 	// enable comment only if user logged in & user does not have comment on this product
 	let userCommentedBefore = true;
-	if (user) {
-		const userId = user.sub.split("|")[1];
+	if (session && session.user) {
+		const userId = session.user.sub.split("|")[1];
 		userCommentedBefore = await client.didCommentBefore(userId, pid);
 	}
-	const enableComment = user && !userCommentedBefore;
+	const enableComment = session && session.user && !userCommentedBefore;
 
 	return {
 		props: {
