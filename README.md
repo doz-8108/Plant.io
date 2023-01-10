@@ -20,8 +20,6 @@
 ![Screen Recording 2022-07-03 at 2 37 19 PM](https://user-images.githubusercontent.com/40817247/177028574-d6b21b51-f61c-4cc7-a982-a999c4c9b5f6.gif)
 
 ## Views / Future works
-- I am lazy so most of the data in admin dashboard is dummy, site data can be collected using api like GA & clustrmaps
 - Sanity.io is a CMS which use a query language called GROQ and I am not very familiar with it so maybe the queries can improved
 - Redux seems to be a bit anti-pattern with SSR & SSG in Next.js since it is not a single page app
 - Images are from IKEA HK for noncommercial use
-- Finally, sorry for my suck react skill🥲
