@@ -13,7 +13,7 @@
 ## Features
 > There are several features for both admin and customers.
 
-👨🏻‍💻 **[ADMIN]** Easiy manage products, users and orders.
+👨🏻‍💻 **[ADMIN]** Easy shop management
 ![Screenshot 2022-06-30 at 9 52 22 PM](https://user-images.githubusercontent.com/40817247/177028037-f825f75e-7cfa-45cb-a55e-3786eeaf3dfc.png)
 
 🛒 **[CUSTOMER]** View, purchase and track orders.
